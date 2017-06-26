@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-Regular.otf') format('opentype');
+  src: url('Fonts/Montserrat-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-Bold.otf') format('opentype');
+  src: url('Fonts/Montserrat-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-Light.otf') format('opentype');
+  src: url('Fonts/Montserrat-Light.otf') format('opentype');
   font-weight: lighter;
   font-style: normal;
 }
@@ -123,7 +123,7 @@ a:hover {
 
 .contact {
   background-color: #D3D3D3;
-  background-image: url('../images/wet_snow.png');
+  background-image: url('Images/wet_snow.png');
   background-repeat: repeat;
   margin: auto;
   padding: 20px;
