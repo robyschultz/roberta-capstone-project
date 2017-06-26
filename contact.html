@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Roberta Schultz - Visual Designer</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Visual Designer in Toronto, Canada">
+    <meta name="author" content="Roberta Schultz">
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="images/logo.png" alt="Roberta Schultz Visual Designer Logo">
+          <nav>
+            <ul>
+              <li><a href="index.html" class="navlink">Home</a></li>
+              <li><a href="about.html" class="navlink">About</a></li>
+              <li><a href="contact.html" class="navlink">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <section class="contact">
+
+      <h1>Contact</h1>
+      <p>Looking to work together or you'd just like to get in touch? That’s great! I’m always interested in making cool new friends like yourself or engaging on new creative projects.</p>
+      <nav>
+        <ul class="icon">
+          <li><a href="https://www.facebook.com/robyschultz" target="_blank" class="navlink"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+          <li><a href="https://twitter.com/RobySchultz" target="_blank" class="navlink"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+          <li><a href="https://ca.linkedin.com/in/robyschultz" target="_blank" class="navlink"><i class="fa fa-linkedin" aria-hidden="true"></i><span>
+            </span></a></li>
+        </ul>
+      </nav>
+
+      <div class="form">
+        <p id="reply">Thank you for your email!</p>
+        <p id="feedback_button"></p>
+        <form id="surveyForm"  action="https://formspree.io/robertaschultz@hotmail.com"
+      method="POST" novalidate>
+        <label for="name">
+        Name:
+        </label>
+        <br>
+        <input id="name" type="text" name="name">
+        <br>
+        <label for="phone">
+          Phone:
+        </label>
+        <br>
+        <input id="phone" type="text" name="phone">
+        <br>
+        <label for="emailAddress">
+        Email:
+        </label>
+        <br>
+        <input id="emailAddress" type="email" name="email">
+        <br>
+        <br>
+        <label for="newsletter">
+        Would you like to receive my monthly newsletter?
+        </label>
+        <br>
+        <br>
+        <input type="radio" name="newsletter" value="yes">
+        <label for="yes">Yes</label>
+        <br>
+        <input type="radio" name="newsletter" value="no">
+        <label for="editorial">No</label>
+        <br>
+        <br>
+        <label for="dipping">What type of design service are you looking for?</label>
+        <br>
+        <br>
+        <select name="design" form="designForm">
+          <option value="branding">Branding</option>
+          <option value="editorial">Editorial</option>
+          <option value="web">Web Design</option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+    </form>
+    <button id="btn" name="send">Send</button>
+    </div>
+
+  </section>
+
+    <footer>
+      <a href="index.html"><img src="images/logo.png" alt="Roberta Schultz Logo"></a>
+       <p>© 2017 All Rights Reserved to Roberta Schultz</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

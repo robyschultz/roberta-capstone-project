@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.25em;
+  color: #696969;
+  padding-bottom: 1em;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.5em;
+  color: #BAACD4;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  }
+
+header {
+  position: relative;
+  background-color: #ffffff;
+  text-align:center;
+  width: 100%;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #696969;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  color: #696969;
+  font-family: Montserrat;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 5px 10px;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+    border-top: 1px solid #696969;
+    padding: 12px 0;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  footer img {
+    max-width: 220px;
+  }
+
+a:hover {
+    color: #BAACD4;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #696969;
+}
+
+.portfolio {
+  border: 0px;
+  max-with: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ptf-imgs {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 0px;
+}
+
+.lrg-img img {
+  width: 100%;
+}
+
+.ptf-imgs img {
+  width: 50%;
+}
+
+.text {
+  padding: 20px;
+}
+
+.contact {
+  background-color: #D3D3D3;
+  background-image: url('../images/wet_snow.png');
+  background-repeat: repeat;
+  margin: auto;
+  padding: 20px;
+}
+
+.form {
+  background-color: white;
+  max-width: 80%;
+  text-align: left;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 5px 5px 2px #D3D3D3;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.form label {
+  margin-bottom: 1.5em;
+}
+
+.form input {
+  margin-bottom: 1em;
+}
+
+button {
+    padding: 15px 25px;
+    background: #BAACD4;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+   }
+
+   button:hover {
+     transition: 3s;
+     background: grey;
+   }
+
+   #reply {
+     text-align: center;
+     font-size: 22px;
+     font-weight: bold;
+   }
+
+.icon {
+  text-align: center;
+}
+
+
+@media (min-width: 600px) {
+
+  header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    max-with: 10%;
+  }
+
+  nav ul {
+    padding-right: 10px;
+  }
+
+  .lrg-img {
+    width: 50%;
+  }
+
+  .ptf-imgs {
+    width: 50%;
+  }
+
+  .about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headshot {
+    max-width: 45%;
+    padding: 20px;
+  }
+  .text {
+    max-width: 40%;
+  }
+}
+  @media (min-with: 1100px) {
+
+    .headshot {
+      max-width: 30%;
+      }
+
+    }
