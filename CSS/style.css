@@ -123,7 +123,7 @@ a:hover {
 
 .contact {
   background-color: #D3D3D3;
-  background-image: url('Images/wet_snow.png');
+  background-image: url('../Images/wet_snow.png');
   background-repeat: repeat;
   margin: auto;
   padding: 20px;
